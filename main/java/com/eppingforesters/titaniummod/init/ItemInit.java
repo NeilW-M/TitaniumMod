@@ -30,9 +30,13 @@ public class ItemInit {
 	public static final ToolMaterial TOOL_TUNGSTEN = EnumHelper.addToolMaterial("tool_tungsten", 10, 20000, 20.0F, 6.0F, 10);
 	public static final ArmorMaterial ARMOUR_TUNGSTEN = EnumHelper.addArmorMaterial("armour_tungsten", Reference.MODID + ":titanium", 100, new int[]{14, 17, 19, 14}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10.0F);
 	
+	public static final ToolMaterial TOOL_OSMIUM = EnumHelper.addToolMaterial("tool_osmium", 1, 175, 9.0F, 1.0F, 5);
+	public static final ArmorMaterial ARMOUR_OSMIUM = EnumHelper.addArmorMaterial("armour_osmium", Reference.MODID + ":titanium", 15, new int[]{2, 5, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
+	
 	//Items
 	public static final Item INGOT_TITANIUM = new ItemBase("ingot_titanium");
 	public static final Item INGOT_TUNGSTEN = new ItemBase("ingot_tungsten");
+	public static final Item INGOT_OSMIUM = new ItemBase("ingot_osmium");
 	
 	//Tools
 	public static final Item AXE_TITANIUM = new ToolAxe("axe_titanium", TOOL_TITANIUM);
@@ -47,6 +51,12 @@ public class ItemInit {
 	public static final Item SHOVEL_TUNGSTEN = new ToolShovel("shovel_tungsten", TOOL_TUNGSTEN);
 	public static final Item SWORD_TUNGSTEN = new ToolSword("sword_tungsten", TOOL_TUNGSTEN);
 	
+	public static final Item AXE_OSMIUM = new ToolAxe("axe_osmium", TOOL_OSMIUM);
+	public static final Item HOE_OSMIUM = new ToolHoe("hoe_osmium", TOOL_OSMIUM);
+	public static final Item PICKAXE_OSMIUM = new ToolPickaxe("pickaxe_osmium", TOOL_OSMIUM);
+	public static final Item SHOVEL_OSMIUM = new ToolShovel("shovel_osmium", TOOL_OSMIUM);
+	public static final Item SWORD_OSMIUM = new ToolSword("sword_osmium", TOOL_OSMIUM);
+	
 	//Armour
 	public static final Item HELMET_TITANIUM = new ArmourBase("helmet_titanium", ARMOUR_TITANIUM, 1, EntityEquipmentSlot.HEAD);
 	public static final Item CHESTPLATE_TITANIUM = new ArmourBase("chestplate_titanium", ARMOUR_TITANIUM, 1, EntityEquipmentSlot.CHEST);
@@ -58,4 +68,9 @@ public class ItemInit {
 	public static final Item LEGGINGS_TUNGSTEN = new ArmourBase("leggings_tungsten", ARMOUR_TUNGSTEN, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BOOTS_TUNGSTEN = new ArmourBase("boots_tungsten", ARMOUR_TUNGSTEN, 1, EntityEquipmentSlot.FEET);
 	
+	public static final Item HELMET_OSMIUM = new ArmourBase("helmet_osmium", ARMOUR_OSMIUM, 1, EntityEquipmentSlot.HEAD);
+	public static final Item CHESTPLATE_OSMIUM = new ArmourBase("chestplate_osmium", ARMOUR_OSMIUM, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LEGGINGS_OSMIUM = new ArmourBase("leggings_osmium", ARMOUR_OSMIUM, 1, EntityEquipmentSlot.LEGS);
+	public static final Item BOOTS_OSMIUM = new ArmourBase("boots_osmium", ARMOUR_OSMIUM, 1, EntityEquipmentSlot.FEET);
+
 }
