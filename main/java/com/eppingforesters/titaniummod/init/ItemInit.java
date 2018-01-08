@@ -27,8 +27,12 @@ public class ItemInit {
 	public static final ToolMaterial TOOL_TITANIUM = EnumHelper.addToolMaterial("tool_titanium", 4, 1950, 10.0F, 3.5F, 10);
 	public static final ArmorMaterial ARMOUR_TITANIUM = EnumHelper.addArmorMaterial("armour_titanium", Reference.MODID + ":titanium", 37, new int[]{4, 7, 9, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 	
+	public static final ToolMaterial TOOL_TUNGSTEN = EnumHelper.addToolMaterial("tool_tungsten", 10, 20000, 20.0F, 6.0F, 10);
+	public static final ArmorMaterial ARMOUR_TUNGSTEN = EnumHelper.addArmorMaterial("armour_tungsten", Reference.MODID + ":titanium", 100, new int[]{14, 17, 19, 14}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10.0F);
+	
 	//Items
 	public static final Item INGOT_TITANIUM = new ItemBase("ingot_titanium");
+	public static final Item INGOT_TUNGSTEN = new ItemBase("ingot_tungsten");
 	
 	//Tools
 	public static final Item AXE_TITANIUM = new ToolAxe("axe_titanium", TOOL_TITANIUM);
@@ -37,10 +41,21 @@ public class ItemInit {
 	public static final Item SHOVEL_TITANIUM = new ToolShovel("shovel_titanium", TOOL_TITANIUM);
 	public static final Item SWORD_TITANIUM = new ToolSword("sword_titanium", TOOL_TITANIUM);
 	
+	public static final Item AXE_TUNGSTEN = new ToolAxe("axe_tungsten", TOOL_TUNGSTEN);
+	public static final Item HOE_TUNGSTEN = new ToolHoe("hoe_tungsten", TOOL_TUNGSTEN);
+	public static final Item PICKAXE_TUNGSTEN = new ToolPickaxe("pickaxe_tungsten", TOOL_TUNGSTEN);
+	public static final Item SHOVEL_TUNGSTEN = new ToolShovel("shovel_tungsten", TOOL_TUNGSTEN);
+	public static final Item SWORD_TUNGSTEN = new ToolSword("sword_tungsten", TOOL_TUNGSTEN);
+	
 	//Armour
 	public static final Item HELMET_TITANIUM = new ArmourBase("helmet_titanium", ARMOUR_TITANIUM, 1, EntityEquipmentSlot.HEAD);
 	public static final Item CHESTPLATE_TITANIUM = new ArmourBase("chestplate_titanium", ARMOUR_TITANIUM, 1, EntityEquipmentSlot.CHEST);
 	public static final Item LEGGINGS_TITANIUM = new ArmourBase("leggings_titanium", ARMOUR_TITANIUM, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BOOTS_TITANIUM = new ArmourBase("boots_titanium", ARMOUR_TITANIUM, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item HELMET_TUNGSTEN = new ArmourBase("helmet_tungsten", ARMOUR_TUNGSTEN, 1, EntityEquipmentSlot.HEAD);
+	public static final Item CHESTPLATE_TUNGSTEN = new ArmourBase("chestplate_tungsten", ARMOUR_TUNGSTEN, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LEGGINGS_TUNGSTEN = new ArmourBase("leggings_tungsten", ARMOUR_TUNGSTEN, 2, EntityEquipmentSlot.LEGS);
+	public static final Item BOOTS_TUNGSTEN = new ArmourBase("boots_tungsten", ARMOUR_TUNGSTEN, 1, EntityEquipmentSlot.FEET);
 	
 }
