@@ -1,8 +1,10 @@
 package com.eppingforesters.titaniummod;
 
 import com.eppingforesters.titaniummod.proxy.CommonProxy;
+import com.eppingforesters.titaniummod.tabs.TitaniumTab;
 import com.eppingforesters.titaniummod.util.Reference;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -15,6 +17,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class Main {
 	@Instance
 	public static Main instance;
+	
+	public static final CreativeTabs TITANIUM_TAB = new TitaniumTab("titaniumtab");
 	
 	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
 	public static CommonProxy proxy;
