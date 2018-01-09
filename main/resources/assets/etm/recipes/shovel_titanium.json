@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "I",
+        "S",
+        "S"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "etm:ingot_titanium"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "etm:shovel_titanium"
+    }
+    
+}
