@@ -40,3 +40,16 @@ item.boots_osmium.name=Osmium Boots
 tile.block_titanium.name=Titanium Block
 tile.block_tungsten.name=Tungsten Block
 tile.block_osmium.name=Osmium Block
+
+tile.ore_overworld_titanium.name=Titanium Ore
+tile.ore_overworld_tungsten.name=Tungsten Ore
+tile.ore_overworld_osmium.name=Osmium Ore
+
+tile.ore_end_titanium.name=Titanium End Ore
+tile.ore_end_tungsten.name=Tungsten End Ore
+tile.ore_end_osmium.name=Osmium End Ore
+
+tile.ore_nether_titanium.name=Titanium Nether Ore
+tile.ore_nether_tungsten.name=Tungsten Nether Ore
+tile.ore_nether_osmium.name=Osmium Nether Ore
+
