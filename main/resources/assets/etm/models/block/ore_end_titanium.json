@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "etm:blocks/ore_end_titanium"
+    }
+}
