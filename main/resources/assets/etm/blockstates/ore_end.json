@@ -1,0 +1,8 @@
+{
+    "variants":
+    {
+        "variant=titanium": {"model": "etm:ore_end_titanium"},
+        "variant=tungsten": {"model": "etm:ore_end_tungsten"},
+        "variant=osmium": {"model": "etm:ore_end_osmium"}
+    }
+}
