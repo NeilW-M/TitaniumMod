@@ -1,0 +1,42 @@
+itemGroup.titaniumtab=Titanium Mod
+
+item.ingot_titanium.name=Titanium Ingot
+item.ingot_tungsten.name=Tungsten Ingot
+item.ingot_osmium.name=Osmium Ingot
+
+item.axe_titanium.name=Titanium Axe
+item.hoe_titanium.name=Titanium Hoe
+item.pickaxe_titanium.name=Titanium Pickaxe
+item.shovel_titanium.name=Titanium Shovel
+item.sword_titanium.name=Titanium Sword
+
+item.axe_tungsten.name=Tungsten Axe
+item.hoe_tungsten.name=Tungsten Hoe
+item.pickaxe_tungsten.name=Tungsten Pickaxe
+item.shovel_tungsten.name=Tungsten Shovel
+item.sword_tungsten.name=Tungsten Sword
+
+item.axe_osmium.name=Osmium Axe
+item.hoe_osmium.name=Osmium Hoe
+item.pickaxe_osmium.name=Osmium Pickaxe
+item.shovel_osmium.name=Osmium Shovel
+item.sword_osmium.name=Osmium Sword
+
+item.helmet_titanium.name=Titanium Helmet
+item.chestplate_titanium.name=Titanium Chestplate
+item.leggings_titanium.name=Titanium Leggings
+item.boots_titanium.name=Titanium Boots
+
+item.helmet_tungsten.name=Tungsten Helmet
+item.chestplate_tungsten.name=Tungsten Chestplate
+item.leggings_tungsten.name=Tungsten Leggings
+item.boots_tungsten.name=Tungsten Boots
+
+item.helmet_osmium.name=Osmium Helmet
+item.chestplate_osmium.name=Osmium Chestplate
+item.leggings_osmium.name=Osmium Leggings
+item.boots_osmium.name=Osmium Boots
+
+tile.block_titanium.name=Titanium Block
+tile.block_tungsten.name=Tungsten Block
+tile.block_titanium.name=Osmium Block
