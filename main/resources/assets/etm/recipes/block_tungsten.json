@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "III",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "etm:ingot_tungsten"
+        }
+    },
+    
+    "result":
+    {
+        "item": "etm:block_tungsten"
+    }
+    
+}
