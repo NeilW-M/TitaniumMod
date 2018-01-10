@@ -27,13 +27,16 @@ public class BlockOres extends Block implements IHasModel, IMetaName
 	
 	private String name, dimension;
 	
-	public BlockOres(String name, String dimension) 
+	public BlockOres(String name, String dimension, float hardness, int harvestLevel) 
 	{
 		super(Material.ROCK);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.TITANIUM_TAB);
 		setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, EnumHandler.EnumType.TITANIUM));
+		
+		setHardness(hardness);
+		setHarvestLevel("pickaxe", harvestLevel);
 		
 		this.name = name;
 		this.dimension = dimension;
