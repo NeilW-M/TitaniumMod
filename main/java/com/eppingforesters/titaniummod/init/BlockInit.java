@@ -16,9 +16,9 @@ public class BlockInit {
 	public static final Block BLOCK_TUNGSTEN = new BlockBase("block_tungsten", Material.IRON);
 	public static final Block BLOCK_OSMIUM = new BlockBase("block_osmium", Material.IRON);
 	
-	public static final Block ORE_END = new BlockOres("ore_end", "end");
-	public static final Block ORE_OVERWORLD = new BlockOres("ore_overworld", "overworld");
-	public static final Block ORE_NETHER = new BlockOres("ore_nether", "nether");
+	public static final Block ORE_END = new BlockOres("ore_end", "end", 2.0F, 4);
+	public static final Block ORE_OVERWORLD = new BlockOres("ore_overworld", "overworld", 2.0F, 4);
+	public static final Block ORE_NETHER = new BlockOres("ore_nether", "nether", 2.0F, 4);
 
 //	public static final Block TUNGSTEN_END = new BlockOres("tungsten_end", "end");
 //	public static final Block TUNGSTEN_OVERWORLD = new BlockOres("tungsten_overworld", "overworld");

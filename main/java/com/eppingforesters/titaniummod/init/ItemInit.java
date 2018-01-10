@@ -27,8 +27,8 @@ public class ItemInit {
 	public static final ToolMaterial TOOL_TITANIUM = EnumHelper.addToolMaterial("tool_titanium", 4, 1950, 10.0F, 3.5F, 10);
 	public static final ArmorMaterial ARMOUR_TITANIUM = EnumHelper.addArmorMaterial("armour_titanium", Reference.MODID + ":titanium", 37, new int[]{4, 7, 9, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 	
-	public static final ToolMaterial TOOL_TUNGSTEN = EnumHelper.addToolMaterial("tool_tungsten", 10, 20000, 20.0F, 6.0F, 10);
-	public static final ArmorMaterial ARMOUR_TUNGSTEN = EnumHelper.addArmorMaterial("armour_tungsten", Reference.MODID + ":tungsten", 100, new int[]{14, 17, 19, 14}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 10.0F);
+	public static final ToolMaterial TOOL_TUNGSTEN = EnumHelper.addToolMaterial("tool_tungsten", 4, 7500, 15.0F, 5.0F, 10);
+	public static final ArmorMaterial ARMOUR_TUNGSTEN = EnumHelper.addArmorMaterial("armour_tungsten", Reference.MODID + ":tungsten", 50, new int[]{9, 12, 14, 9}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5.0F);
 	
 	public static final ToolMaterial TOOL_OSMIUM = EnumHelper.addToolMaterial("tool_osmium", 1, 175, 9.0F, 1.0F, 5);
 	public static final ArmorMaterial ARMOUR_OSMIUM = EnumHelper.addArmorMaterial("armour_osmium", Reference.MODID + ":osmium", 15, new int[]{2, 5, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
@@ -37,6 +37,10 @@ public class ItemInit {
 	public static final Item INGOT_TITANIUM = new ItemBase("ingot_titanium");
 	public static final Item INGOT_TUNGSTEN = new ItemBase("ingot_tungsten");
 	public static final Item INGOT_OSMIUM = new ItemBase("ingot_osmium");
+	
+	public static final Item NUGGET_TITANIUM = new ItemBase("nugget_titanium");
+	public static final Item NUGGET_TUNGSTEN = new ItemBase("nugget_tungsten");
+	public static final Item NUGGET_OSMIUM = new ItemBase("nugget_osmium");
 	
 	//Tools
 	public static final Item AXE_TITANIUM = new ToolAxe("axe_titanium", TOOL_TITANIUM);
