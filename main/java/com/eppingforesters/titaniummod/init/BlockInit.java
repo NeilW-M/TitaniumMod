@@ -19,6 +19,8 @@ public class BlockInit {
 	public static final Block ORE_END = new BlockOres("ore_end", "end", 2.0F, 4);
 	public static final Block ORE_OVERWORLD = new BlockOres("ore_overworld", "overworld", 2.0F, 4);
 	public static final Block ORE_NETHER = new BlockOres("ore_nether", "nether", 2.0F, 4);
+	
+//	public static final Block PLANKS_POSION_OAK = new BlockPlank("planks_poison_oak");
 
 //	public static final Block TUNGSTEN_END = new BlockOres("tungsten_end", "end");
 //	public static final Block TUNGSTEN_OVERWORLD = new BlockOres("tungsten_overworld", "overworld");

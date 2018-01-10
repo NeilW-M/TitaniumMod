@@ -8,4 +8,6 @@ public class Reference {
 	public static final String CLIENT = "com.eppingforesters.titaniummod.proxy.ClientProxy";
 	public static final String COMMON = "com.eppingforesters.titaniummod.proxy.CommonProxy";
 	
+	public static final int ENTITY_CENTAUR = 120;
+	
 }
