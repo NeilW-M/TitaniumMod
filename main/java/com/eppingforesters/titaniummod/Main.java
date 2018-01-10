@@ -3,6 +3,7 @@ package com.eppingforesters.titaniummod;
 import com.eppingforesters.titaniummod.proxy.CommonProxy;
 import com.eppingforesters.titaniummod.tabs.TitaniumTab;
 import com.eppingforesters.titaniummod.util.Reference;
+import com.eppingforesters.titaniummod.util.handlers.RegistryHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -24,7 +25,7 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {}
+	public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.otherRegistries();}
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {}
