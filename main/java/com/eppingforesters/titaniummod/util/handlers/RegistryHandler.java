@@ -1,6 +1,7 @@
 package com.eppingforesters.titaniummod.util.handlers;
 
 import com.eppingforesters.titaniummod.init.BlockInit;
+import com.eppingforesters.titaniummod.init.EntityInit;
 import com.eppingforesters.titaniummod.init.ItemInit;
 import com.eppingforesters.titaniummod.util.IHasModel;
 import com.eppingforesters.titaniummod.world.gen.WorldGenCustomOres;
@@ -47,5 +48,8 @@ public class RegistryHandler {
 	public static void otherRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		// possible future error. Represents preInitRegistries method in video. See ep 10 at 6:24.
+		EntityInit.registerEntities();
+		RenderHandler.registerEntityRenders();
 	}
 }
