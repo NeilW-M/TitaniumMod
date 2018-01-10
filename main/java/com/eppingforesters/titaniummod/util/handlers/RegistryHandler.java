@@ -3,6 +3,7 @@ package com.eppingforesters.titaniummod.util.handlers;
 import com.eppingforesters.titaniummod.init.BlockInit;
 import com.eppingforesters.titaniummod.init.ItemInit;
 import com.eppingforesters.titaniummod.util.IHasModel;
+import com.eppingforesters.titaniummod.world.gen.WorldGenCustomOres;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -26,7 +28,8 @@ public class RegistryHandler {
 	}
 	
 	@SubscribeEvent
-	public static void onModelRegister(ModelRegistryEvent event) {
+	public static void onModelRegister(ModelRegistryEvent event) 
+	{
 		for(Item item : ItemInit.ITEMS) {
 			if(item instanceof IHasModel) {
 				((IHasModel)item).registerModels();
@@ -39,5 +42,10 @@ public class RegistryHandler {
 			}
 		}
 		
+	}
+	
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 	}
 }
