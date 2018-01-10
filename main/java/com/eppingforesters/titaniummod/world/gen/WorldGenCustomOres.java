@@ -24,17 +24,17 @@ public class WorldGenCustomOres implements IWorldGenerator
 	public WorldGenCustomOres()
 	{
 		// titanium
-		ore_end_titanium = new WorldGenMinable(BlockInit.ORE_END.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TITANIUM), 9, BlockMatcher.forBlock(Blocks.END_STONE));
-		ore_nether_titanium = new WorldGenMinable(BlockInit.ORE_NETHER.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TITANIUM), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
-		ore_overworld_titanium = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TITANIUM), 9, BlockMatcher.forBlock(Blocks.STONE));
+		ore_end_titanium = new WorldGenMinable(BlockInit.oreEnd("titanium").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TITANIUM), 9, BlockMatcher.forBlock(Blocks.END_STONE));
+		ore_nether_titanium = new WorldGenMinable(BlockInit.oreNether("titanium").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TITANIUM), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_overworld_titanium = new WorldGenMinable(BlockInit.oreOverworld("titanium").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TITANIUM), 9, BlockMatcher.forBlock(Blocks.STONE));
 		// tungsten
-		ore_end_tungsten = new WorldGenMinable(BlockInit.ORE_END.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TUNGSTEN), 3, BlockMatcher.forBlock(Blocks.END_STONE));
-		ore_nether_tungsten = new WorldGenMinable(BlockInit.ORE_NETHER.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TUNGSTEN), 3, BlockMatcher.forBlock(Blocks.NETHERRACK));
-		ore_overworld_tungsten = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TUNGSTEN), 3, BlockMatcher.forBlock(Blocks.STONE));
+		ore_end_tungsten = new WorldGenMinable(BlockInit.oreEnd("tungsten").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TUNGSTEN), 3, BlockMatcher.forBlock(Blocks.END_STONE));
+		ore_nether_tungsten = new WorldGenMinable(BlockInit.oreNether("tungsten").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TUNGSTEN), 3, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_overworld_tungsten = new WorldGenMinable(BlockInit.oreOverworld("tungsten").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.TUNGSTEN), 3, BlockMatcher.forBlock(Blocks.STONE));
 		// osmium
-		ore_end_osmium = new WorldGenMinable(BlockInit.ORE_END.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.OSMIUM), 9, BlockMatcher.forBlock(Blocks.END_STONE));
-		ore_nether_osmium = new WorldGenMinable(BlockInit.ORE_NETHER.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.OSMIUM), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
-		ore_overworld_osmium = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.OSMIUM), 9, BlockMatcher.forBlock(Blocks.STONE));	
+		ore_end_osmium = new WorldGenMinable(BlockInit.oreEnd("osmium").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.OSMIUM), 9, BlockMatcher.forBlock(Blocks.END_STONE));
+		ore_nether_osmium = new WorldGenMinable(BlockInit.oreNether("osmium").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.OSMIUM), 9, BlockMatcher.forBlock(Blocks.NETHERRACK));
+		ore_overworld_osmium = new WorldGenMinable(BlockInit.oreOverworld("osmium").getDefaultState().withProperty(BlockOres.VARIANT, EnumHandler.EnumType.OSMIUM), 9, BlockMatcher.forBlock(Blocks.STONE));	
 	}
 	
 	@Override
