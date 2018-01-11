@@ -44,7 +44,12 @@ public class BlockOres extends Block implements IHasModel, IMetaName
 		BlockInit.BLOCKS.add(this);
 
 		ItemInit.ITEMS.add(new ItemBlockVariants(this).setRegistryName(this.getRegistryName()));
-
+		
+		// try to give harvest levels
+		this.setHarvestLevel("pickaxe", 3, this.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.TITANIUM));
+		this.setHarvestLevel("pickaxe", 4, this.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.TUNGSTEN));
+		this.setHarvestLevel("pickaxe", 2, this.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.OSMIUM));
+		
 	}
 	
 	@Override
