@@ -3,6 +3,7 @@ package com.eppingforesters.titaniummod;
 import com.eppingforesters.titaniummod.proxy.CommonProxy;
 import com.eppingforesters.titaniummod.tabs.TitaniumTab;
 import com.eppingforesters.titaniummod.util.Reference;
+import com.eppingforesters.titaniummod.util.handlers.RecipeHandler;
 import com.eppingforesters.titaniummod.util.handlers.RegistryHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -15,7 +16,9 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
-public class Main {
+public class Main 
+{
+	
 	@Instance
 	public static Main instance;
 	
@@ -25,11 +28,21 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {RegistryHandler.otherRegistries();}
+	public static void preInit(FMLPreInitializationEvent event) 
+	{
+		RegistryHandler.otherRegistries(); RecipeHandler.registerSmelting();
+	}
 	
 	@EventHandler
-	public static void init(FMLInitializationEvent event) {}
+	public static void init(FMLInitializationEvent event) 
+	{
+		RecipeHandler.registerSmelting();
+	}
 	
 	@EventHandler
-	public static void postInit(FMLPostInitializationEvent event) {}
+	public static void postInit(FMLPostInitializationEvent event) 
+	{
+		RecipeHandler.registerSmelting();
+	}
+	
 }
